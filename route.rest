@@ -1,0 +1,29 @@
+GET http://localhost:3000/users
+
+###
+
+GET http://localhost:3000/users/616ef8bdb44eb27490df4859
+
+###
+
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "name": "Tevin",
+    "email": "te@vin.com",
+    "password": "password"
+}
+
+###
+
+DELETE http://localhost:3000/users/616ef8eca8592aaa14b122c3
+
+###
+
+PATCH http://localhost:3000/users/616ef911a8592aaa14b122c9
+Content-Type: application/json
+
+{
+    "name": "Beam"
+}
